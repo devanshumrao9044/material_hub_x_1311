@@ -24,6 +24,7 @@ class AppRoutes {
     login: (context) => const LoginScreen(),
     profile: (context) => const ProfileScreen(),
     batchSelection: (context) => const BatchSelectionScreen(),
+    import 'package:material_hub_x_1311/presentation/contact_us/contact_us_page.dart';
     // TODO: Add your other routes here
   };
 }
