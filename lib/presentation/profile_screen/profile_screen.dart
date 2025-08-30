@@ -146,6 +146,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ),
               SizedBox(height: 4.h),
 
+              // contact us 
+
+              bottomSheet: Padding(
+  padding: EdgeInsets.all(16.0),
+  child: SizedBox(
+    width: double.infinity,
+    child: ElevatedButton(
+      onPressed: () {
+        Navigator.pushNamed(context, AppRoutes.contactUs);
+      },
+      child: const Text("Contact Us"),
+    ),
+  ),
+),
               // Study Analytics
               StudyAnalyticsWidget(
                 weeklyData: weeklyData,
