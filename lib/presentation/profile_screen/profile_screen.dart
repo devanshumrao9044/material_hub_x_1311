@@ -145,7 +145,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 achievements: achievements,
               ),
               SizedBox(height: 4.h),
-              
+
               // Study Analytics
               StudyAnalyticsWidget(
                 weeklyData: weeklyData,
