@@ -5,7 +5,7 @@ import '../presentation/home_dashboard/home_dashboard.dart';
 import '../presentation/login_screen/login_screen.dart';
 import '../presentation/profile_screen/profile_screen.dart';
 import '../presentation/batch_selection_screen/batch_selection_screen.dart';
-
+import 'package:material_hub_x_1311/presentation/contact_us/contact_us_page.dart';
 class AppRoutes {
   // TODO: Add your routes here
   static const String initial = '/';
@@ -15,7 +15,8 @@ class AppRoutes {
   static const String login = '/login-screen';
   static const String profile = '/profile-screen';
   static const String batchSelection = '/batch-selection-screen';
-
+static const String contactUs = '/contact-us';
+ 
   static Map<String, WidgetBuilder> routes = {
     initial: (context) => const LoginScreen(),
     studyMaterials: (context) => const StudyMaterialsScreen(),
@@ -24,7 +25,7 @@ class AppRoutes {
     login: (context) => const LoginScreen(),
     profile: (context) => const ProfileScreen(),
     batchSelection: (context) => const BatchSelectionScreen(),
-    import 'package:material_hub_x_1311/presentation/contact_us/contact_us_page.dart';
+    contactUs: (context) => const ContactUsPage(),
     // TODO: Add your other routes here
   };
 }
