@@ -6,7 +6,7 @@ import 'package:sizer/sizer.dart';
 import './core/theme_provider.dart';
 import './widgets/custom_error_widget.dart';
 import 'core/app_export.dart';
-
+import './presentation/contact_us/contact_us_screen.dart'
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
