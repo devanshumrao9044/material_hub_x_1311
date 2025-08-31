@@ -5,7 +5,7 @@ import '../presentation/home_dashboard/home_dashboard.dart';
 import '../presentation/login_screen/login_screen.dart';
 import '../presentation/profile_screen/profile_screen.dart';
 import '../presentation/batch_selection_screen/batch_selection_screen.dart';
-
+import '../presentation/contact_us/contact_us_page.dart';
 class AppRoutes {
   // TODO: Add your routes here
   static const String initial = '/';
