@@ -109,7 +109,7 @@ class AppTheme {
     ),
 
     // Card theme - Subtle elevation without overwhelming content
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: cardLight,
       elevation: 2.0,
       shadowColor: shadowLight,
@@ -310,7 +310,7 @@ class AppTheme {
     ),
 
     // Tab bar theme - Progressive disclosure navigation
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryLight,
       unselectedLabelColor: textSecondaryLight,
       indicatorColor: primaryLight,
@@ -432,7 +432,7 @@ class AppTheme {
     ),
 
     // Card theme - Dark mode with subtle elevation
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: cardDark,
       elevation: 2.0,
       shadowColor: shadowDark,
@@ -633,7 +633,7 @@ class AppTheme {
     ),
 
     // Tab bar theme - Dark mode
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryDark,
       unselectedLabelColor: textSecondaryDark,
       indicatorColor: primaryDark,
